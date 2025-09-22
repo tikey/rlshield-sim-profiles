@@ -10,7 +10,7 @@
   "related_identifiers": [
     {
       "relation": "isSupplementedBy",
-      "identifier": "doi:XXXXXXXXXX", 
+      "identifier": "doi:10.5281/zenodo.17180073", 
       "resource_type": "dataset"
     }
   ]
