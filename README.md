@@ -1,1 +1,1 @@
-# rlshield-sim-profiles
+Profiles project. See scripts/run_experiment.py

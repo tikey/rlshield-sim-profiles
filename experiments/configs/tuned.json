@@ -1,0 +1,68 @@
+{
+  "episodes": 50,
+  "horizon": 60,
+  "epsilon_up": 0.6,
+  "epsilon": 0.3,
+  "policy": {
+    "rho_star": 1,
+    "delta_rho": 1,
+    "kappa": 1
+  },
+  "env": {
+    "processes": 3,
+    "queue_cap": 20,
+    "resource_cap": {
+      "cpu": 100.0,
+      "mem": 256.0,
+      "energy": 100.0
+    },
+    "initial_alloc": {
+      "cpu": 25.0,
+      "mem": 64.0,
+      "energy": 0.0
+    },
+    "deadlines": [
+      14,
+      20,
+      26
+    ],
+    "data_staleness": 12,
+    "net_window_open_prob": 0.88
+  },
+  "disturbances": {
+    "prob": 0.35,
+    "classes": [
+      "net_drop",
+      "res_spike",
+      "temp_jitter",
+      "order_swap",
+      "data_stale",
+      "ctl_stall"
+    ],
+    "dur_range": [
+      1,
+      3
+    ],
+    "severity": {
+      "cpu": [
+        8,
+        20
+      ],
+      "latency": [
+        1,
+        2
+      ],
+      "age": [
+        1,
+        2
+      ],
+      "queue": [
+        1,
+        3
+      ]
+    }
+  },
+  "logging": {
+    "log_steps": true
+  }
+}
