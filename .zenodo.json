@@ -1,0 +1,17 @@
+{
+  "title": "RLShield-sim: моделювання відновлення та локалізації",
+  "upload_type": "software",
+  "description": "Код стенду з профілями hard/tuned, скрипти запуску та побудови метрик.",
+  "creators": [
+    {"name": "Tkachov Vitalii", "orcid": "0000-0002-6524-9937", "affiliation": "Kharkiv National University of Radio Electronics"}
+  ],
+  "license": "MIT",
+  "keywords": ["process-level", "resilience", "mobile platform", "recovery", "localization"],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "doi:XXXXXXXXXX", 
+      "resource_type": "dataset"
+    }
+  ]
+}
