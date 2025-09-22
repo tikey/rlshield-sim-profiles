@@ -1,0 +1,13 @@
+# результати та артефакти
+results/*
+!results/.gitkeep
+*.jsonl
+*.csv
+*.png
+*.pdf
+
+# середовища/кеші
+__pycache__/
+*.pyc
+.venv/
+.env/
